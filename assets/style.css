@@ -35,6 +35,9 @@ nav ul li a{
     height: 100vh;
     border: 5px solid green;
 }
+.bio h2{
+    margin-top: 20px;
+}
 .bio p{
     margin-top: 100px;
 
@@ -53,7 +56,7 @@ nav ul li a{
 
 }
 .project{
-    border: 2px solid black;
+    border: 5px solid black;
     width: 10%;
     height: 40%;
     flex: 1 0 200px;
@@ -61,18 +64,30 @@ nav ul li a{
 }
 #project-1{
     flex: 1 0 100%;
+    background-image: url(Screenshot\ 2023-08-31\ at\ 11.55.11\ AM.png);
+    background-position: 0% 50%;
+    background-size: 900px 300px; 
+
 }
 #project-2{
-    background-image: url();
+    background-image: url(Screenshot\ 2023-08-31\ at\ 11.57.32\ AM.png);
+    background-position: center;
+    background-size: cover;
 }
 #project-3{
-    background-image: url();
+    background-image: url(Screenshot\ 2023-08-31\ at\ 12.00.09\ PM.png);
+    background-position: center;
+    background-size: cover;
 }
 #project-4{
-    background-image: url();
+    background-image: url(Screenshot\ 2023-08-31\ at\ 12.02.32\ PM.png);
+    background-position: center;
+    background-size: cover;
 }
 #project-5{
-    background-image: url();
+    background-image: url(Screenshot\ 2023-08-31\ at\ 12.06.16\ PM.png);
+    background-position: center;
+    background-size: cover;
 }
 
 #project-2, #project-3, #project-4, #project-5 {
@@ -83,7 +98,8 @@ nav ul li a{
 .project p{
     background-color: black;
     color: white;
-    width: 40%;
+    width: 100px;
+    border-bottom-right-radius: 10px;
 }
 
 .contact{ 
@@ -97,11 +113,11 @@ nav ul li a{
 #contact-form{
     border: 2px solid gray;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     padding-top: 300px;
 }
 .contact-item{
-    margin: 25px;
+    margin: px;
 }
 
 textarea{
