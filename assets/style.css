@@ -57,13 +57,15 @@ nav ul li a{
 }
 .project{
     border: 5px solid black;
-    width: 10%;
-    height: 40%;
-    flex: 1 0 200px;
+    width: 45.5%;
+    height: 28%;
+    /* flex: 1 0 200px; */
     
 }
 #project-1{
-    flex: 1 0 100%;
+    flex: 1 0 60%; 
+    margin-left: 20px;
+    margin-right: 20px;
     background-image: url(Screenshot\ 2023-08-31\ at\ 11.55.11\ AM.png);
     background-position: 0% 50%;
     background-size: 900px 300px; 
@@ -91,7 +93,7 @@ nav ul li a{
 }
 
 #project-2, #project-3, #project-4, #project-5 {
-    margin:0 5px 0 5px;
+    margin:20px;
 }  
 
 
@@ -110,20 +112,6 @@ nav ul li a{
     
 }
 
-#contact-form{
-    border: 2px solid gray;
-    text-align: center;
-    height: 100%;
-    padding-top: 300px;
-}
-.contact-item{
-    margin: px;
-}
-
-textarea{
-    width: 225px;
-    height: 200px;
-}
 
 
 @media screen and (max-width:800px) {
@@ -142,8 +130,8 @@ textarea{
         margin: 0;
         flex: none;
         height: 30%;
+        background-position: center;
+    background-size: cover;
     }  
-    #contact-form{
-       margin-top: 500px;
-    }
+    
 }
