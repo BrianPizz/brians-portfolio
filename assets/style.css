@@ -55,17 +55,29 @@ nav ul li a{
     padding-right: 100px;
 
 }
+
+
 .project{
     border: 5px solid black;
     width: 45.5%;
     height: 28%;
-    /* flex: 1 0 200px; */
-    
 }
+    
+.project p{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-bottom-right-radius: 10px;
+}
+.projects a {
+    display: inline-block;
+}    
+    
+
 #project-1{
     flex: 1 0 60%; 
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
     background-image: url(Screenshot\ 2023-08-31\ at\ 11.55.11\ AM.png);
     background-position: 0% 50%;
     background-size: 900px 300px; 
@@ -93,16 +105,8 @@ nav ul li a{
 }
 
 #project-2, #project-3, #project-4, #project-5 {
-    margin:20px;
+    margin:10px;
 }  
-
-
-.project p{
-    background-color: black;
-    color: white;
-    width: 100px;
-    border-bottom-right-radius: 10px;
-}
 
 .contact{ 
     padding-top: 40px;
@@ -114,7 +118,7 @@ nav ul li a{
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:835px) {
     header{
         display: none;
     }
