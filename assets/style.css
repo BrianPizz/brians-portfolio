@@ -67,6 +67,7 @@ nav ul li:hover{
 .bio h2{
     margin-top: 20px;
     font-style: italic;
+    color: #e53170;
 }
 .bio p{
     width: 33%;
