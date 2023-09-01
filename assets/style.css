@@ -45,7 +45,7 @@ nav ul li a{
 
 /* change padding left if add image */
 .projects{
-    border: 4px solid blue;
+    /* border: 4px solid blue; */
     padding-top: 40px;
     width: 100%;
     height: 100vh;
@@ -58,7 +58,7 @@ nav ul li a{
 
 
 .project{
-    border: 5px solid black;
+    border: 5px solid black; 
     width: 45.5%;
     height: 28%;
 }
@@ -79,14 +79,16 @@ nav ul li a{
     margin-left: 10px;
     margin-right: 50px;
     background-image: url(Screenshot\ 2023-08-31\ at\ 11.55.11\ AM.png);
-    background-position: 0% 50%;
-    background-size: 900px 300px; 
+     background-position: 0% 37%;
+    background-size: 1200px 500px;  
+    
 
 }
 #project-2{
     background-image: url(Screenshot\ 2023-08-31\ at\ 11.57.32\ AM.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    
 }
 #project-3{
     background-image: url(Screenshot\ 2023-08-31\ at\ 12.00.09\ PM.png);
@@ -110,7 +112,7 @@ nav ul li a{
 
 .contact{ 
     padding-top: 40px;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     width: 100%;
     height: 100vh;
     
@@ -121,6 +123,11 @@ nav ul li a{
 @media screen and (max-width:835px) {
     header{
         display: none;
+    }
+    .bio{
+        text-align: center;
+        margin: auto;
+        padding: 200px 0 0 0;
     }
     .projects{
         padding: 0;
@@ -135,7 +142,11 @@ nav ul li a{
         flex: none;
         height: 30%;
         background-position: center;
-    background-size: cover;
+        background-size: cover;
     }  
+    .contact{
+        height: 50vh;
+        margin-top: 400px;
+    }
     
 }
