@@ -62,8 +62,6 @@ nav ul li a:hover{
     width: 45%;
     margin-left:5% ;
 }
-    
-
 .bio h1{
     font-size: 50px;
 }
@@ -77,6 +75,7 @@ nav ul li a:hover{
     color: #a7a9be;
     line-height: 1.7;
     width: 60%;
+    height: 100%;
 }
 
 /* change padding left to margin if add element */
@@ -229,6 +228,9 @@ footer{
 
     .bio .write-up{
         margin: auto;
+    }
+    .avatar{
+        width: 30%;
     }
     .bio h2{
         color: #fffffe;
