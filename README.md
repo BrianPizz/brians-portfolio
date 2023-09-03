@@ -1,4 +1,4 @@
-# Brian's Portfolio
+# portfolio
 ## Preview
 
 ![Screenshot 2023-09-03 at 1 25 41 PM (2)](https://github.com/BrianPizz/portfolio/assets/138056153/5b8f44bc-b8be-47cb-a127-c5810981cd85)
